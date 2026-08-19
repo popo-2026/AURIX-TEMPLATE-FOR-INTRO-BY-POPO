@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AURIX Club — Core Team</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      background: #0d0824;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
+    }
+
+    .container {
+      width: min(1100px, 100%);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 4rem);
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      color: #cdbfff;
+      margin-bottom: 35px;
+    }
+
+    .posters {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      align-items: start;
+    }
+
+    .poster {
+      background: rgba(255, 255, 255, 0.06);
+      padding: 12px;
+      border-radius: 20px;
+      border: 1px solid rgba(210, 190, 255, 0.25);
+      transition: transform 0.25s ease;
+    }
+
+    .poster:hover {
+      transform: translateY(-8px);
+    }
+
+    .poster img {
+      width: 100%;
+      display: block;
+      border-radius: 12px;
+    }
+
+    footer {
+      margin-top: 40px;
+      color: #9f91c7;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+
+    <h1>Meet the Core Team</h1>
+
+    <p class="subtitle">
+      AURIX CLUB · BUILD · CREATE · LEAD
+    </p>
+
+    <section class="posters">
+
+      <div class="poster">
+        <img
+          src="ChatGPT%20Image%20Aug%2018,%202026,%2009_31_17%20PM.png"
+          alt="AURIX Core Team Poster"
+        >
+      </div>
+
+      <div class="poster">
+        <img
+          src="ChatGPT%20Image%20Aug%2018,%202026,%2009_33_48%20PM.png"
+          alt="AURIX Design Team Poster"
+        >
+      </div>
+
+    </section>
+
+    <footer>
+      © 2026 AURIX Club
+    </footer>
+
+  </main>
+
+</body>
+</html>
